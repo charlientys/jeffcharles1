@@ -3,10 +3,17 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" media="mediatype and|not|only (expressions)" href="print.css">
   </head>
- 
+ <style type="text/css">
+ 	@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+ </style>
 </style>
-  <body style="background-image: url(./picture.webp); background-repeat: no-repeat; background-size: 100% 100%;">
+  <body >
     <nav id="navbar" >
 
 
@@ -140,6 +147,7 @@
             protected, and you do not have to implement interfaces. Variables,
             parameters, and function return types are not explicitly typed.
           </p>
+
         </article>
       </section>
       <section class="main-section" id="Hello_world">
